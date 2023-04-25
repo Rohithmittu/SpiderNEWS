@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SpiderNEWS/static/css/main.abd64e84.css",
-    "main.js": "/SpiderNEWS/static/js/main.76982dc0.js",
+    "main.js": "/SpiderNEWS/static/js/main.4f56cb61.js",
     "static/js/787.4c026eef.chunk.js": "/SpiderNEWS/static/js/787.4c026eef.chunk.js",
     "index.html": "/SpiderNEWS/index.html",
     "main.abd64e84.css.map": "/SpiderNEWS/static/css/main.abd64e84.css.map",
-    "main.76982dc0.js.map": "/SpiderNEWS/static/js/main.76982dc0.js.map",
+    "main.4f56cb61.js.map": "/SpiderNEWS/static/js/main.4f56cb61.js.map",
     "787.4c026eef.chunk.js.map": "/SpiderNEWS/static/js/787.4c026eef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.76982dc0.js"
+    "static/js/main.4f56cb61.js"
   ]
 }
