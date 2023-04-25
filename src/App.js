@@ -1,7 +1,7 @@
 
-import './App.css';
 
 import React, { useState } from 'react'
+import './App.css';
 import Navbar from './components/Navbar';
 import News from './components/News';
 // import React from "react";
@@ -10,7 +10,7 @@ import News from './components/News';
 //   Switch,
 //   Route,
 // } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 
 
@@ -22,6 +22,7 @@ const App = () => {
  
  
     return (
+      <>
         <BrowserRouter basename='/SpiderNEWS'>
         
       <div>
@@ -50,6 +51,7 @@ const App = () => {
       
       </div>
       </BrowserRouter>
+      </>
     )
   
 }
