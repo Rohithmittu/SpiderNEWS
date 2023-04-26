@@ -10,7 +10,7 @@ import News from './components/News';
 //   Switch,
 //   Route,
 // } from "react-router-dom";
-import { BrowserRouter as BrowserRouter, Routes, Route } from "react-router-dom";
+import {  HashRouter, Routes, Route  } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 
 
@@ -23,7 +23,10 @@ const App = () => {
  
     return (
       <>
-        <BrowserRouter basename='/SpiderNEWS'>
+        
+        <HashRouter>
+
+        
         
       <div>
           
@@ -44,13 +47,15 @@ const App = () => {
           <Route exact path="/science" element={<News setProgress={setProgress} apiKey={apiKey} key="science" pageSize={pageSize} country="us" category="science"/>}></Route>
           <Route exact path="/sports" element={<News setProgress={setProgress} apiKey={apiKey} key="sports" pageSize={pageSize} country="us" category="sports"/>}></Route>
           <Route exact path="/technology" element={<News setProgress={setProgress} apiKey={apiKey} key="technology" pageSize={pageSize} country="us" category="technology"/>}></Route>
-          
-          
         
         </Routes>
       
       </div>
-      </BrowserRouter>
+   
+
+      </HashRouter>
+      
+     
       </>
     )
   
